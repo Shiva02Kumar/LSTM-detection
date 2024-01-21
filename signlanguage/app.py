@@ -89,7 +89,7 @@ with mp_hands.Hands(
                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
         
         # Show to screen
-        cv2.imshow('OpenCV Feed', frame)
+        cv2.imshow('Output feed', frame)
 
         # Break gracefully
         if cv2.waitKey(10) & 0xFF == ord('q'):
